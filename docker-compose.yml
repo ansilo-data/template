@@ -1,7 +1,6 @@
 # This docker-compose.yml is used for local development
 version: "3.9"
 
-# Build the ansilo service locally
 services:
   ansilo:
     # Start with the local Dockerfile
