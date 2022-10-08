@@ -29,7 +29,7 @@ jobs:
     sql: |
       SELECT * FROM hello;
 
-# Specify which SQL scripts to run to build the db
+# Specify the SQL scripts that build the db
 build:
   stages:
     - sql: ${dir}/sql/*.sql
