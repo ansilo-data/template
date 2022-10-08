@@ -21,7 +21,7 @@ Connect via CLI using `PGPASSWORD=pleasechangeme psql -h localhost -p 65432 -U a
 ## Troubleshooting
 
 The container will output all logging to stdout/stderr, the logging output will be your first
-diagnostic into errors or issues.
+diagnostic for any errors or issues.
 
 To enable verbose logging you can set `RUST_LOG` environment variable to `DEBUG` or `TRACE` to increase
 the verbosity of the logging.
