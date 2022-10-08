@@ -1,0 +1,36 @@
+name: My Node
+
+# Change the listening port if required
+networking:
+  port: 65432
+
+# Define the users for your node
+auth:
+  users:
+    - username: app
+      password: pleasechangeme
+
+# Add your data source by updating the below
+#
+# sources: 
+#   - id: mysql
+#     type: jdbc.mysql
+#     options:
+#       jdbc_url: jdbc:mysql://my.mysql.db/db
+#       properties:
+#         user: myuser
+#         password: mysecret
+
+# Run queries on regular schedule 
+jobs:
+  - id: Say hello
+    triggers:
+      - cron: "0 * * * * *"
+    sql: |
+      SELECT * FROM hello;
+
+# Specify which SQL scripts to run to build the db
+build:
+  stages:
+    - sql: ${dir}/sql/*.sql
+    

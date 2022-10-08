@@ -1,0 +1,6 @@
+# Exclude files we dont want in the image
+.git
+.gitignore
+docker-compose.yml
+Dockerfile
+README.md

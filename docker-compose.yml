@@ -1,0 +1,20 @@
+# This docker-compose.yml is used for local development
+version: "3.9"
+
+# Build the ansilo service locally
+services:
+  ansilo:
+    # Start with the local Dockerfile
+    build: .
+    # Enable development mode
+    command: dev
+    environment:
+      - RUST_LOG=${RUST_LOG-ansilo=info}
+    # Map the configuration files into the container to enable hot-release
+    volumes:
+      - .:/app/
+    # Map the port that is configured in our ansilo.yml
+    ports:
+      - "65432:65432"
+    # And just in case
+    restart: unless-stopped
