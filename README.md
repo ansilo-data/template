@@ -1,4 +1,4 @@
-# Ansilo
+# Ansilo - Build Portals not Pipelines
 
 Ansilo is the first decentralised data integration platform. 
 We believe that standardising a [PostgreSQL](https://postgresql.org) interface into every data store is the ultimate solution to Data Mesh, ETL, Virtualisation and more.
