@@ -18,6 +18,18 @@ To open the browser-based workbench go to http://localhost:65432.
 
 Connect via CLI using `PGPASSWORD=pleasechangeme psql -h localhost -p 65432 -U app`.
 
+## Troubleshooting
+
+The container will output all logging to stdout/stderr, the logging output will be your first
+diagnostic into errors or issues.
+
+To enable verbose logging you can set `RUST_LOG` environment variable to `DEBUG` or `TRACE` to increase
+the verbosity of the logging.
+
+```sh
+RUST_LOG=DEBUG docker compose up
+```
+
 ## Deployment
 
 In order to build a production-ready image build the `Dockerfile`.
