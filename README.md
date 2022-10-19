@@ -18,6 +18,12 @@ To open the browser-based workbench go to http://localhost:65432.
 
 Connect via CLI using `PGPASSWORD=pleasechangeme psql -h localhost -p 65432 -U app`.
 
+## Development process
+
+Any changes to `ansilo.yml` or `*.sql` scripts will automatically reload the instance with the changes.
+
+See [development guides](https://docs.ansilo.io/category/development-guides/) for next steps.
+
 ## Troubleshooting
 
 The container will output all logging to stdout/stderr, the logging output will be your first
