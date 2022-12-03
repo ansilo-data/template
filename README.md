@@ -1,7 +1,8 @@
-# Ansilo - Build Portals not Pipelines
+# Ansilo
 
-Ansilo is the first decentralised data integration platform. 
-We believe that standardising a [PostgreSQL](https://postgresql.org) interface into every data store is the ultimate solution to Data Mesh, ETL, Virtualisation and more.
+Ansilo is a stateless postgres container with JWT auth and an universal foreign data wrapper, making it simple to build interopable data products on top of your existing databases.
+
+The vision for Ansilo is to massively reduce the burden of having data spread across multiple databases or vendors by leveraging postgres and SQL/MED to provide a simple and standards-compliant interface to query, copy or move data across disparate systems.
 
 To read more, check out [our documentation](https://docs.ansilo.io).
 
