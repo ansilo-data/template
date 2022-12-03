@@ -1,12 +1,14 @@
 # Ansilo
 
-Ansilo is a stateless postgres container with JWT auth and an universal foreign data wrapper, making it simple to build interopable data products on top of your existing databases.
+Ansilo is a stateless postgres container with JWT auth and an universal foreign data wrapper, making it simple to build interoperable data products on top of your existing databases.
 
 The vision for Ansilo is to massively reduce the burden of having data spread across multiple databases or vendors by leveraging postgres and SQL/MED to provide a simple and standards-compliant interface to query, copy or move data across disparate systems.
 
 To read more, check out [our documentation](https://docs.ansilo.io).
 
 ## Getting started
+
+In order to get access to Ansilo please [submit this form](https://ansilo.io/access) and we will get back you within 48 hours.
 
 To run Ansilo locally, run start the container using [`docker compose`](https://docs.docker.com/compose/).
 
