@@ -8,8 +8,6 @@ To read more, check out [our documentation](https://docs.ansilo.io).
 
 ## Getting started
 
-In order to get access to Ansilo please [submit this form](https://ansilo.io/access) and we will get back you within 48 hours.
-
 To run Ansilo locally, run start the container using [`docker compose`](https://docs.docker.com/compose/).
 
 ```sh
