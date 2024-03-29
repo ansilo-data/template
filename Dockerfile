@@ -1,6 +1,6 @@
 # By default we use the Ansilo base image
 # Your organisation may have a custom base image that you want to reference here instead
-FROM get.ansilo.tech/ansilo-prod
+FROM timetoogo/ansilo
 
 # Copy the configuration files into the image
 ADD . /app/
