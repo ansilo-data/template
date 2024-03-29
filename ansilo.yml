@@ -8,7 +8,7 @@ networking:
 auth:
   users:
     - username: app
-      password: ${env:PASSWD}
+      password: pleasechangeme
 
 # Add your data source by updating the below
 #
